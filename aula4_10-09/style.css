@@ -1,0 +1,16 @@
+p{
+    background-color: yellow;
+}
+h1{
+    color:black;
+}
+#aqua{
+    color:aqua;
+    /* background-color: black; */
+}
+.cinza{
+    background-color: gray;
+}
+.cont{
+    border: 4px solid red;
+}
