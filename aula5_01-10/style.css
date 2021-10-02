@@ -5,11 +5,20 @@
     background-color: #ff0000;/*Hexa:# valores 00-ff RRGGBB */
 }
 .cor3{
-    background-color: rgb(0,0,255);/*RGB: valores 0-255 rgb(R,G,B)*/
+    background-color: rgb(0, 0, 255);/*RGB: valores 0-255 rgb(R,G,B)*/
 }
 .cor4{
     background-color: rgb(0%,100%,0%);/*RGB: valores 0%-100% rgb(R,G,B)*/
 }
 .cor5{
     color: white;/* #ffffff, rgb(255,255,255), rgb(100%,100%,100%) */
+}
+.cor6{
+    color: hsl(240,100%,50%);
+}
+.cor7{
+    background-color: hsl(0,0%,50%);/* cinza */
+}
+.cor8{
+    background-color: hsl(0, 0%, 0%);
 }
