@@ -17,8 +17,11 @@
     color: hsl(240,100%,50%);
 }
 .cor7{
-    background-color: hsl(0,0%,50%);/* cinza */
+    background-color: rgba(255, 0, 0, 0.365);/*  */
 }
 .cor8{
     background-color: hsl(0, 0%, 0%);
+}
+.borda1{
+    border: 8px dashed hsl(60,100%,50%);
 }
