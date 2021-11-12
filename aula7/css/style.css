@@ -2,6 +2,7 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 .back-img{
     width: 100vw;
@@ -24,11 +25,11 @@
 }
 
 .imagem{
-    width: 300px;
+    width:300px;
     text-align: center;
 }
 .imagem img{
-    width: 300px;
+    width: 100%;
     opacity: 0.5;
     border: 2px solid white;  
 }
