@@ -10,11 +10,18 @@
     background-image: url(../img/lobinho1.jpg);
     background-size: cover;
     background-position: 50% 50%;
-    /* display: flex; */
-    /* flex-direction: row; */
-    /* justify-content: space-around;  */
-    /* align-items: center; */
-    /* flex-wrap: wrap; */
+    display: flex;
+    /* flex-direction: column;  representa eixo vertical*/
+     flex-direction: row; 
+     /* flex-direction:row representa horizontal  */
+    justify-content: center;
+    /* justify-content segue o eixo principal */
+    align-items: center;
+    /*align-itens segue o eixo cruzado */
+    flex-wrap: wrap;
+    gap:20px;
+    
+
 /*
     display: flex;
     flex-direction: column | column-reverse | row | row-reverse;
