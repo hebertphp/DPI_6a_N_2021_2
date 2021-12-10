@@ -45,6 +45,7 @@
             Digite sua mensagem
             <textarea name="msg" id="" cols="30" rows="3" placeholder="Digite sua msg">Está aqui o valor</textarea>
             <br>
+            Tel <input type="tel" onKeyDown="if(this.value.length==2 && event.keyCode!=8) return false;" />
           <input type="submit" value="Enviar"> <input type="reset" value="Limpar">
         </fieldset>  
     </form>
