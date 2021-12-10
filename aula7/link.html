@@ -10,6 +10,9 @@
         box-sizing: border-box;
         font-family: Arial, Helvetica, sans-serif;
     }
+    html{
+        scroll-behavior: smooth;
+    }
     header{
         display: flex;
         justify-content: space-between;
@@ -64,6 +67,7 @@
         background-attachment: fixed;
         position:relative;
         z-index: -5;
+        padding-top: 150px;
     }
     .banner div{
         position:absolute;
@@ -76,7 +80,10 @@
         margin: 10px auto;
     }
     section h3{
-        margin-top: 300px;
+        padding-top: 200px;
+    }
+    #empresa{
+        /* padding:100px; */
     }
 </style>
 </head>
@@ -88,16 +95,18 @@
         </div>
         <nav>
             <ul>
+                <li><a href="#empresa">Empresa</a></li>
                 <li><a href="img.html">IMG</a></li>
                 <li><a href="http://www.uninove.br">Uninove</a></li>
                 <li><a href="http://www.uninove.br" target="_blank">Uninove - Blank</a></li>
+                <li><a href="#tp1">Tópico 1</a></li>
                 <li><a href="#tp5">Tópico 5</a></li>
             </ul>    
         </nav>
     </header>
-    <section class="banner">
+    <section class="banner" id="empresa">
         <div>
-        <h1>Bem vindo a empresa!</h1>
+        <h1 >Bem vindo a empresa!</h1>
         <div>
     </section>
     <section>
