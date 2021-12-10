@@ -1,0 +1,15 @@
+
+.imagem{
+    border: 2px solid red;
+    width:500px;
+    height:600px ;
+    text-align: center;
+}
+
+.imagem img{
+    width:70%; 
+    /* height:300px; */
+}
+.imagem p{
+    
+}
