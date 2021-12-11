@@ -13,7 +13,7 @@
             font-family: Arial, Helvetica, sans-serif;
         }
         table, td, th{
-            border: 1px solid blue;
+            border: 1px solid gray;
             border-collapse: collapse;
         }
         table{
@@ -24,14 +24,23 @@
             text-align: center;
             padding: 10px;
         }
+        /*
         td:nth-child(1) {
             background: red;
         }
         td:nth-child(2) {
             background: green;
         }
+        
         td:nth-child(3) {
             background: blue;
+        }
+        */ 
+        tr:nth-child(odd) {
+            background: darkblue;color:white
+        }
+        tr:nth-child(even) {
+            background: lightblue;
         }
     </style>
 </head>
