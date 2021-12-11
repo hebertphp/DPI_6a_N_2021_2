@@ -49,11 +49,20 @@
         td:last-child {
             background-color: salmon;
         }
-*/      
+      
+
+        */
+        tr:last-child {
+            background-color: hsl(44, 88%, 53%);
+        }
         caption{
-            caption-side: bottom;
+            /* caption-side: bottom; */
             /* text-align: right; */
-        }    
+        } 
+        .rowspan{
+            background-color: hsl(56, 88%, 53%);
+            writing-mode:vertical-lr;
+        }   
     </style>
 </head>
 <body>
@@ -63,6 +72,7 @@
             <th>Id</th>
             <th>Produto</th>
             <th>Preço</th>
+            <td rowspan="6" class="rowspan">Valores</td>
         </tr>
         <tr>
             <td>0001</td>
@@ -84,7 +94,10 @@
             <td>Placa de Vídeo</td>
             <td>1200</td>
         </tr>  
-              
+        <tr>
+            <td colspan="3">Total: 3000</td>
+
+        </tr>      
     </table>    
 </body>
 </html>
