@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Var Css 0</title>
+    <style>
+        :root{
+            /*---Cores ---*/
+	        --cor1:red;
+            --cor2:white;
+            --h:240;
+
+            
+            
+        }
+        .dv1{
+            /* background-color: hsl(240,100%,50%); */
+            /* color:hsl(240,100%,100%); */
+            background-color: var(--cor1);
+            color:var(--cor2);
+        }
+        /*
+        Desafio: criar var para a cor azul em HSL, uma var para cada referencia de cor
+        h s l.
+        A div deverá ter largura de 40%, altura de 150px e estar alinhada no centro.
+        Detalhe, usar var para tudo!
+
+        */
+    </style>
+</head>
+<body>
+    <div class="dv1">
+        Uma div
+    </div>
+</body>
+</html>
