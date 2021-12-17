@@ -10,16 +10,25 @@
             /*---Cores ---*/
 	        --cor1:red;
             --cor2:white;
-            --h:240;
+            --cor3:green;
 
-            
+            --h:240;
+            --s:100%;
+            --l:50%;
+            --lw:100%;
+            --lb:0%;
+
+            --largura:40%;
+            --altura:150px;
             
         }
         .dv1{
-            /* background-color: hsl(240,100%,50%); */
+            background-color: hsl(var(--h),var(--s),var(--l));
             /* color:hsl(240,100%,100%); */
-            background-color: var(--cor1);
-            color:var(--cor2);
+            /* background-color: var(--cor1); */
+            color:hsl(var(--h),var(--s),var(--lb));
+            width: var(--largura);
+            height:var(--altura);
         }
         /*
         Desafio: criar var para a cor azul em HSL, uma var para cada referencia de cor
